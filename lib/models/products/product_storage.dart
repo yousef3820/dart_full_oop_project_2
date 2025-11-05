@@ -1,7 +1,7 @@
 import 'package:dart_full_oop_project_2/models/products/product.dart';
 
 class ProductStorage {
-  List<Product> _products = [];
+  final List<Product> _products = [];
   void addProduct(Product product) {
     _products.add(product);
   }
