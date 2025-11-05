@@ -1,3 +1,3 @@
-abstract class Payment {
+abstract interface class Payment {
   void pay();
 }
